@@ -5,7 +5,7 @@ export const requestPermission=async()=>{
         const granted= await PermissionsAndroid.requestMultiple([
             PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
             PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
-            PermissionsAndroid.PERMISSIONS.PERMISSIONS.CAMERA,
+            PermissionsAndroid.PERMISSIONS.CAMERA,
         ])
         console.log(granted)
         if (
