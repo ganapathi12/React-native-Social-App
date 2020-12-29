@@ -60,7 +60,7 @@ return (
             <Text>SignIn</Text>
           </Button>
           <TouchableOpacity
-            onPress={() => navigation.navigate('SignUp')}
+            onPress={() => navigation.navigate('Signup')}
             style={{marginTop: 10}}>
             <Text style={{color: '#fff', textAlign: 'center'}}>
               Do not have an account, SignUp here
